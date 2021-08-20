@@ -1,0 +1,71 @@
+.card-wrapper {
+    width: 100%;
+    height: 100%;
+    max-width: 310px;
+    min-height: 220px;
+    background-color: #FEF0FE;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    margin-top: 20px;
+    border-radius: 5px;
+    padding: 0px 5px 10px 10px;
+    display: flex;
+    flex-direction: column;
+    margin: 15px 15px 15px 10px;
+}
+
+.title-icon {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.title-icon__icon {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #D9D4D9;
+}
+
+.delete-button{
+    border: none; outline: none; 
+    background: none;
+    color: #D9D4D9;
+    padding-bottom: 28px;
+}
+
+
+.title-icon-city {
+    margin-top: 5px;
+}
+
+.title-icon__city{
+    font-weight: 600;
+}
+
+.icon {
+    width: 44px;
+}
+
+.characters {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.character-temp {
+    font-size: 28px;
+    cursor: pointer;
+}
+
+.gray-color {
+    color: #D9D4D9;
+}
+
+.character-other {
+    font-size: 14px;
+}
+
+.prop {
+    color:#589BE8;
+}

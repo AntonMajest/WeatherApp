@@ -1,0 +1,65 @@
+.App {
+  text-align: center;
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+
+
+.input-form {
+  border-radius: 5px;
+    padding: 10px;
+  border: none;
+  outline:none;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.button-form {
+  border: none; outline: none; 
+  background-color: #589BE8;
+  border-radius: 5px;
+  color: white;
+  padding: 10px 40px 10px 40px;
+  margin-left: 15px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.card-flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+   
+}
+
+.dropdown-item-text {
+  text-decoration: none;
+  outline: none;
+}
+
+.language-select-root {
+  margin-top: 20px;
+}
+
+.switch-lang {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: none; outline: none; 
+    background: none;
+}
